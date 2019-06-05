@@ -1,0 +1,32 @@
+body {
+    font-family: Monospace, Courier;
+    font-size: 0.3rem;
+    line-height: 1.2;
+    color: #FFF;
+    max-width: 40rem;
+    padding: 2rem;
+    margin: 0 auto;
+    background: #3a3a3a;
+}
+
+img {
+    max-width: 100%;
+}
+
+a {
+    color: #6E90EE;
+    text-decoration: none;
+}
+
+h1, h2, h3, h4, h5, h6, strong {
+    color: #BBB;
+}
+
+.entry-date {
+    color: #FFF;
+}
+
+.header-link {
+    margin-left: 0.3em;
+    margin-right: 0.3em;
+}
