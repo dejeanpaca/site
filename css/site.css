@@ -1,9 +1,9 @@
 body {
     font-family: Monospace, Courier;
-    font-size: 0.3rem;
+    font-size: 1rem;
     line-height: 1.2;
     color: #FFF;
-    max-width: 40rem;
+    max-width: 50rem;
     padding: 2rem;
     margin: 0 auto;
     background: #3a3a3a;
@@ -29,4 +29,17 @@ h1, h2, h3, h4, h5, h6, strong {
 .header-link {
     margin-left: 0.3em;
     margin-right: 0.3em;
+}
+
+.post-date {
+    color: #AAA;
+}
+
+.post-title {
+    margin: 0;
+    text-transform: uppercase;
+}
+
+.header-title-link {
+    color: #BBB;
 }
