@@ -18,17 +18,12 @@ a {
     text-decoration: none;
 }
 
-h1, h2, h3, h4, h5, h6, strong {
+h1, h2, h3, h4, h5, h6, strong, .header-title-link {
     color: #BBB;
 }
 
 .entry-date {
     color: #FFF;
-}
-
-.header-link {
-    margin-left: 0.3em;
-    margin-right: 0.3em;
 }
 
 .post-date {
@@ -40,6 +35,3 @@ h1, h2, h3, h4, h5, h6, strong {
     text-transform: uppercase;
 }
 
-.header-title-link {
-    color: #BBB;
-}
