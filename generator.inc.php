@@ -1,6 +1,6 @@
 <?php
 
-Common::$copy_list = ['css', 'js', 'images'];
+Common::$copy_list = ['css', 'images'];
 
 Common::Add('__HEADER__', 'header.html');
 Common::Add('__FOOTER__', 'footer.html');
