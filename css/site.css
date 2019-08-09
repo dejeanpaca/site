@@ -5,6 +5,7 @@ body {
     color: #FFF;
     margin: 0;
     background: #2a2a2a;
+    height: 100%;
 }
 
 .content {
@@ -12,7 +13,8 @@ body {
     background: #3a3a3a;
     margin: 0 auto;
     padding: 0.5rem 2rem 0 2rem;
-    height: 100%;
+    height: auto;
+    min-height: 100% !important;
 }
 
 img {
