@@ -9,12 +9,35 @@ body {
 }
 
 .content {
-    max-width: 52rem;
-    background: #3a3a3a;
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+
+#content {
+    background-color: #3a3a3a;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+}
+
+#site {
+    max-width: 56rem;
+    background-color: #3f3f3f;
     margin: 0 auto;
-    padding: 0.5rem 2rem 0 2rem;
     height: auto;
     min-height: 100% !important;
+}
+
+#header {
+    padding-top: 0.1rem;
+    padding-bottom: 0.1rem;
+    background-color: #3f3f3f;
+    border-bottom: 1px solid #888;
+}
+
+#footer {
+    border-top: 1px solid #888;
+    padding-top: 0.5rem;
+    background-color: #3f3f3f;
 }
 
 img {
