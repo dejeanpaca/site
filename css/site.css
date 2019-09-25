@@ -31,11 +31,11 @@ body {
     padding-top: 0.1rem;
     padding-bottom: 0.1rem;
     background-color: #3f3f3f;
-    border-bottom: 1px solid #888;
+    border-bottom: 1px solid #555;
 }
 
 #footer {
-    border-top: 1px solid #888;
+    border-top: 1px solid #555;
     padding-top: 0.5rem;
     background-color: #3f3f3f;
 }
