@@ -3,7 +3,7 @@
 require_once include_module('css');
 require_once include_module('atom');
 
-Common::$copy_list = ['css', 'images'];
+Common::$copy_list = ['css', 'images', 'js'];
 
 Common::Add('__FOOTER__', 'footer.html');
 Common::Add('__POST_HEADER__', 'post_header.html');
