@@ -13,18 +13,6 @@ $grumpyPageType = new PageType();
 $grumpyPageType->templateFile = 'post_template.html';
 $grumpyPageType->SetDirectory('grumpy');
 $grumpyPageType->category = 'grumpy';
-$grumpyPageType->class = '\GrumpyPost';
-
-class GrumpyPost extends Page
-{
-    function __construct() {
-        global $grumpyPageType;
-
-        parent::__construct();
-
-        $this->setType($grumpyPageType);
-    }
-}
 
 Common::$markers->Add('__AUTHOR_NAME__', 'Dejan Boras');
 Common::$markers->Add('__SITE_LINK__', 'https://dbx7.net');
