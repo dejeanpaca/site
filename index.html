@@ -3,12 +3,26 @@
     @Summary: Home page
 -->
 
-<br/>
-__POST_LIST__
-<br/>
-<a href="https://github.com/dejeanpaca" target="_blank">=> GitHub Profile</a>
+<div id="site">
+    <div id="header">
+    <center>
+        <a class="header-title-link" href="/"><h2 class="header-title-link">dbX7</h2></a>
+    </center>
+    </div>
 
-<div id="quote-container" style="display: none" onclick="insertQuote()">
-    <hr />
-    <i><p id="quote">"No quotes cause no script loaded", quoth the Raven</p></i>
+    <div id="content" class="content">
+        <br/>
+        __POST_LIST__
+        <br/>
+        <a href="https://github.com/dejeanpaca" target="_blank">=> GitHub Profile</a>
+
+        <div id="quote-container" style="display: none" onclick="insertQuote()">
+            <hr />
+            <i><p id="quote">"No quotes cause no script loaded", quoth the Raven</p></i>
+        </div>
+    </div>
+
+    __FOOTER__
 </div>
+
+<script src="js/site.js"></script>

@@ -7,7 +7,9 @@ var quotes = {
         '640K ought to be enough for anyone',
         'So Say We All',
         'Now with 50% more js frameworks',
-        'She cannae take anymore captain'
+        'She cannae take anymore captain',
+        'Resistance is futile',
+        'e will add your biological and technological distinctiveness to our own'
     ],
 
     giveth: function() {
