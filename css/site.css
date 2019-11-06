@@ -1,11 +1,12 @@
+html, body { height:100% }
+#site { height:100% }
+
 body {
     font-family: Monospace, Courier;
-    font-size: 1rem;
     line-height: 1.2;
     color: #FFF;
     margin: 0;
     background: #2a2a2a;
-    height: 100%;
 }
 
 .content {
@@ -15,16 +16,14 @@ body {
 
 #content {
     background-color: #3a3a3a;
-    padding-top: 0.5rem;
+    padding-top: 0.1rem;
     padding-bottom: 0.5rem;
 }
 
 #site {
-    max-width: 56rem;
     background-color: #3f3f3f;
+    max-width: 56rem;
     margin: 0 auto;
-    height: auto;
-    min-height: 100% !important;
 }
 
 #header {
@@ -35,16 +34,12 @@ body {
 }
 
 #post-header {
-    padding-top: 0.05rem;
-    padding-bottom: 0.05rem;
-    background-color: #3f3f3f;
     border-bottom: 1px solid #555;
 }
 
 #footer {
     border-top: 1px solid #555;
     padding-top: 0.5rem;
-    background-color: #3f3f3f;
 }
 
 img {
