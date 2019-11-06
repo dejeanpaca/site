@@ -6,9 +6,9 @@
 -->
 
 <p>
-    <center class="grumpy-image">
-        <img src="/images/grump/template.png">
-    </center>
+    <div class="grumpy-image">
+        <img class="grumpy-image" src="/images/grump/template.png">
+    </div>
 
 Template text
 </p>

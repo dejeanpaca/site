@@ -31,6 +31,7 @@ body {
     padding-bottom: 0.1rem;
     background-color: #3f3f3f;
     border-bottom: 1px solid #555;
+    display: flex;
 }
 
 #post-header {
@@ -46,8 +47,12 @@ img {
     max-width: 100%;
 }
 
+.grumpy-image-container {
+    display: flex;
+}
+
 .grumpy-image {
-   margin: 1.5rem;
+    margin: 1rem auto;
 }
 
 a {
@@ -62,6 +67,11 @@ h4.post-header-title-link {
 
 h1, h2, h3, h4, h5, h6, strong, .header-title-link, .post-header-title-link {
     color: #BBB;
+}
+
+.header-title-link {
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .entry-date {
