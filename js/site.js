@@ -3,13 +3,14 @@ var quotes = {
     list: [
         'Live long and prosper',
         'May the force be with you',
-        'In failure we learn',
+        'In defeat we learn',
         '640K ought to be enough for anyone',
         'So Say We All',
         'Now with 50% more js frameworks',
         'She cannae take anymore captain',
         'Resistance is futile',
-        'e will add your biological and technological distinctiveness to our own'
+        'We will add your biological and technological distinctiveness to our own',
+        'No, I am your father.'
     ],
 
     giveth: function() {
