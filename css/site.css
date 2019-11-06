@@ -51,6 +51,10 @@ img {
     max-width: 100%;
 }
 
+.grumpy-image {
+   margin: 1.5rem;
+}
+
 a {
     color: #6E90EE;
     text-decoration: none;
