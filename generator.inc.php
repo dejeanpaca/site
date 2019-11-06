@@ -4,7 +4,6 @@ require_once include_module('tidy');
 require_once include_module('atom');
 
 TidyModule::$configuration = [
-    'clean' => true,
     'indent' => false,
     'hide-comments' => true
 ];
