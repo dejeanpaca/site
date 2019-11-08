@@ -10,7 +10,8 @@ var quotes = {
         'She cannae take anymore captain',
         'Resistance is futile',
         'We will add your biological and technological distinctiveness to our own',
-        'No, I am your father.'
+        'No, I am your father.',
+	    'Turning players into payers'
     ],
 
     giveth: function() {
