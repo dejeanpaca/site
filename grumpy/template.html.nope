@@ -5,10 +5,8 @@
     @Marker: __FEED_UUID__ enter-an-uuid-here
 -->
 
-<p>
-    <div class="grumpy-image">
-        <img class="grumpy-image" src="/images/grump/template.png">
+    <div class="grumpy-image-container">
+        <img class="grumpy-image" src="/images/grump/template.png" alt="insert alt text here">
     </div>
 
 Template text
-</p>
