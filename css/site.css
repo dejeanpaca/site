@@ -6,7 +6,7 @@ body {
     line-height: 1.2;
     color: #FFF;
     margin: 0;
-    background: #2a2a2a;
+    background: #1a1a1a;
 }
 
 .content {
@@ -15,13 +15,13 @@ body {
 }
 
 #content {
-    background-color: #3a3a3a;
+    background-color: #262626;
     padding-top: 0.1rem;
     padding-bottom: 0.5rem;
 }
 
 #site {
-    background-color: #3f3f3f;
+    background-color: #202020;
     max-width: 56rem;
     margin: 0 auto;
 }
@@ -29,7 +29,7 @@ body {
 #header {
     padding-top: 0.1rem;
     padding-bottom: 0.1rem;
-    background-color: #3f3f3f;
+    background-color: #202020;
     border-bottom: 1px solid #555;
     display: flex;
 }
@@ -56,7 +56,7 @@ img {
 }
 
 a {
-    color: #6E90EE;
+    color: #7EB0FF;
     text-decoration: none;
 }
 
