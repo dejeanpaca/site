@@ -11,7 +11,12 @@ var quotes = {
         'Resistance is futile',
         'We will add your biological and technological distinctiveness to our own',
         'No, I am your father.',
-	    'Turning players into payers'
+        'Turning players into payers',
+        'We don\'t use cookies, we eat them',
+        'Fuck you, give us money (Realistic corporate slogan)',
+        'Take me to your leader',
+        'This is the way',
+        'People think it don\'t be like it is, but it do'
     ],
 
     giveth: function() {
