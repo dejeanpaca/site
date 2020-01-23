@@ -1,6 +1,7 @@
 var quotes = {
     last: -1,
     list: [
+        'New posts every <b>undefined</b>',
         'Live long and prosper',
         'May the force be with you',
         'In defeat we learn',
@@ -39,7 +40,7 @@ function insertQuote() {
     var element = document.getElementById('quote');
 
     if(element) {
-        element.innerText = quote;
+        element.innerHTML = quote;
 
         var container = document.getElementById('quote-container');
 
