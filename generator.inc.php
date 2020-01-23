@@ -13,6 +13,10 @@ Common::$copy_list = ['css', 'images', 'js'];
 Common::Add('__FOOTER__', 'footer.html');
 Common::Add('__POST_HEADER__', 'post_header.html');
 
+$errorPageType = new PageType();
+$errorPageType->templateFile = 'error_template.html';
+$errorPageType->SetDirectory('errors');
+
 Common::CreateCategory('grumpy', '__GRUMPY_POSTS_LIST__');
 
 $grumpyPageType = new PageType();
