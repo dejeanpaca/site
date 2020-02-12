@@ -11,7 +11,7 @@ TidyModule::$configuration = [
 Common::$copy_list = ['css', 'images', 'js', 'favicon.png'];
 
 Common::Add('__FOOTER__', 'footer.html');
-Common::Add('__POST_HEADER__', 'post_header.html');
+Common::Add('__HEADER__', 'header.html');
 
 $errorPageType = new PageType();
 $errorPageType->templateFile = 'error_template.html';

@@ -6,7 +6,7 @@ body {
     line-height: 1.2;
     color: #FFF;
     margin: 0;
-    background: #1a1a1a;
+    background: #262626;
 }
 
 .content {
@@ -15,32 +15,27 @@ body {
 }
 
 #content {
-    background-color: #262626;
     padding-top: 0.1rem;
     padding-bottom: 0.5rem;
 }
 
-#site {
-    background-color: #202020;
-    max-width: 56rem;
-    margin: 0 auto;
+#header {
+    padding-top: 0.3rem;
+    padding-bottom: 0.3rem;
 }
 
 #header {
-    padding-top: 0.1rem;
-    padding-bottom: 0.1rem;
-    background-color: #202020;
-    border-bottom: 1px solid #555;
-    display: flex;
+    background-color: #222222;
 }
 
-#post-header {
-    border-bottom: 1px solid #555;
+#site, #header-content {
+    margin: 0 auto;
+    max-width: 56rem;
 }
 
 #footer {
     border-top: 1px solid #555;
-    padding-top: 0.5rem;
+    padding-top: 0.8rem;
 }
 
 img {
@@ -60,12 +55,12 @@ a {
     text-decoration: none;
 }
 
-h4.post-header-title-link {
+h4.header-title-link {
     margin: 0;
     padding: 0.25rem;
 }
 
-h1, h2, h3, h4, h5, h6, strong, .header-title-link, .post-header-title-link {
+h1, h2, h3, h4, h5, h6, strong, .header-title-link, .header-title-link {
     color: #BBB;
 }
 
@@ -74,8 +69,23 @@ h1, h2, h3, h4, h5, h6, strong, .header-title-link, .post-header-title-link {
     margin-right: auto;
 }
 
+.post-entry {
+    padding: 0.3rem 0;
+}
+
+.entry-link {
+    width: 100%;
+    display: flex;
+}
+
 .entry-date {
     color: #FFF;
+    margin-right: 0.4rem;
+}
+
+.entry-title {
+    border-bottom: 1px grey dashed;
+    width: 100%;
 }
 
 .post-date {
