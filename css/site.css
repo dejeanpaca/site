@@ -47,7 +47,7 @@ img {
 }
 
 .grumpy-image {
-    margin: 3rem auto;
+    margin: 1.5rem auto;
 }
 
 a {
@@ -84,7 +84,6 @@ h1, h2, h3, h4, h5, h6, strong, .header-title-link, .header-title-link {
 }
 
 .entry-title {
-    border-bottom: 1px grey dashed;
     width: 100%;
 }
 
@@ -103,7 +102,7 @@ hr {
     display: block;
     height: 1px;
     border: 0;
-    border-top: 1px solid;
+    /* border-top: 4px solid; */
     margin: 1em 0;
     padding: 0;
 }
