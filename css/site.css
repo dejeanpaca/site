@@ -1,9 +1,8 @@
-html, body { height:100% }
 #site { height:100% }
 
 body {
     font-family: Monospace, Courier;
-    line-height: 1.2;
+    line-height: 1.1;
     color: #FFF;
     margin: 0;
     background: #262626;
@@ -71,7 +70,7 @@ h1, h2, h3, h4, h5, h6, strong, .header-title-link, .header-title-link {
 }
 
 .post-entry {
-    padding: 0.3rem 0;
+    padding: 0.15rem 0;
 }
 
 .entry-link {
