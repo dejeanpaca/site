@@ -84,7 +84,7 @@ h1, h2, h3, h4, h5, h6, strong, .header-title-link, .header-title-link {
 }
 
 .entry-title {
-    width: 100%;
+    margin-right: auto;
 }
 
 .post-date {
