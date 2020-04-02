@@ -6,7 +6,7 @@
 -->
 
 <div class="grumpy-image-container">
-    <img class="grumpy-image" src="/images/grump/template.png" alt="insert alt text here">
+    <img class="grumpy-image" src="images/template.png" alt="insert alt text here">
 </div>
 
 Template text

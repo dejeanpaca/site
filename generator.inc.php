@@ -8,7 +8,7 @@ TidyModule::$configuration = [
     'hide-comments' => true
 ];
 
-Common::$copy_list = ['css', 'images', 'js', 'favicon.png'];
+Common::$copy_list = ['css', 'images', 'js', 'favicon.png', 'grumpy/images'];
 
 Common::Add('__FOOTER__', 'footer.html');
 Common::Add('__HEADER__', 'header.html');
