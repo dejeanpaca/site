@@ -115,6 +115,12 @@ hr {
     padding-left: 6px;
 }
 
+.note {
+    color: rgb(17, 184, 250);
+    border-left: solid 4px rgb(17, 184, 250);;
+    padding-left: 6px;
+}
+
 /* external links */
 
 a[href^="http://"]:not([href*="dbx7.net"]):after,
