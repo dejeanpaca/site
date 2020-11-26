@@ -15,17 +15,17 @@
 <p>
     Simple task, recrate the surface and the existing egl contexts should remain working with the new surface. Alas, no.
     In the process I missed an important function call while sifting various reference code on the interwebs. <br/>
-    <p>
-    Got this error message when trying to do a <code>eglSwapBuffers</code>:<br/>
-    <div class=".code-block">
-        <code>queueBuffer: error queuing buffer to SurfaceTexture, -19</code>
-    </div>
-    </p>
 </p>
+<p>
+    Got this error message when trying to do a <code>eglSwapBuffers</code>:<br/>
+</p>
+<div class=".code-block">
+    <code>queueBuffer: error queuing buffer to SurfaceTexture, -19</code>
+</div>
 
 <p>
     Googling the error message yielded nothing useful, or nothing I've already not done. And there seemed to be nothing
-    specific about the <code>-19<code> part. It resulted in a maddening trial and error. And I knew it had to work,
+    specific about the <code>-19</code> part. It resulted in a maddening trial and error. And I knew it had to work,
     cause other engines/games do it properly.
 </p>
 
@@ -35,14 +35,14 @@
 
 <p>
     When you swap back to your app, for some reason the buffer geometry is different than it was, and you have to set it
-    to match the egl config by getting the format.<br/>
-    <div class=".code-block">
-        <code>
-        eglGetConfigAttrib(egl_display, egl_config, EGL_NATIVE_VISUAL_ID, @format);
-        ANativeWindow_setBuffersGeometry(app^.window, 0, 0, format);
-        </code>
-    </div>
+    to match the egl config by getting the format.
 </p>
+<div class=".code-block">
+    <code>
+    eglGetConfigAttrib(egl_display, egl_config, EGL_NATIVE_VISUAL_ID, @format);
+    ANativeWindow_setBuffersGeometry(app^.window, 0, 0, format);
+    </code>
+</div>
 
 <p>
     <small-header/>In a nutshell for anyone doing it themselves like me.<br/><br/>
