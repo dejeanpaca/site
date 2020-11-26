@@ -1,0 +1,53 @@
+<!--
+    @Title: Android engine port shenanigans
+    @Date: 2020-26-11
+    @Summary: Shenanigans developing an engine port for android
+    @Marker: __FEED_UUID__ 5f0b23b5-7349-4cf1-a155-62b3ec80bf56
+-->
+
+<p>
+    Somewhat got my engine ported to android, to further the functionality of it. One goal was to be able to
+    swap between apps and have my game engine continue running normally.
+</p>
+<p>
+    This is a bit more complex, since android destroys and recreates your native window when it loses focus, and also destroys the egl surface.
+</p>
+<p>
+    Simple task, recrate the surface and the existing egl contexts should remain working with the new surface. Alas, no.
+    In the process I missed an important function call while sifting various reference code on the interwebs. <br/>
+    <p>
+    Got this error message when trying to do a <code>eglSwapBuffers</code>:<br/>
+    <div class=".code-block">
+        <code>queueBuffer: error queuing buffer to SurfaceTexture, -19</code>
+    </div>
+    </p>
+</p>
+
+<p>
+    Googling the error message yielded nothing useful, or nothing I've already not done. And there seemed to be nothing
+    specific about the <code>-19<code> part. It resulted in a maddening trial and error. And I knew it had to work,
+    cause other engines/games do it properly.
+</p>
+
+<p>
+    At last found out I was missing a call to <code>ANativeWindow_setBuffersGeometry()</code>.
+</p>
+
+<p>
+    When you swap back to your app, for some reason the buffer geometry is different than it was, and you have to set it
+    to match the egl config by getting the format.<br/>
+    <div class=".code-block">
+        <code>
+        eglGetConfigAttrib(egl_display, egl_config, EGL_NATIVE_VISUAL_ID, @format);
+        ANativeWindow_setBuffersGeometry(app^.window, 0, 0, format);
+        </code>
+    </div>
+</p>
+
+<p>
+    <small-header/>In a nutshell for anyone doing it themselves like me.<br/><br/>
+
+    Do all the operations in the android_main() loop. First initialize the egl display, and find a config.
+    Setup the buffer geometry, then create surface and contexts. On loss of surface (destroyed window), only recreate the surface without destroying
+    your contexts and you can swap apps without having to reload textures.
+</p>
