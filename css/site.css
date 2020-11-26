@@ -127,6 +127,12 @@ hr {
     padding-left: 6px;
 }
 
+.small-header {
+    color: rgb(196, 0, 83);
+    border-left: solid 4px rgb(196, 0, 83);
+    padding-left: 6px;
+}
+
 /* external links */
 
 a[href^="http://"]:not([href*="dbx7.net"]):after,

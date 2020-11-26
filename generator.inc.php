@@ -28,3 +28,4 @@ Common::$markers->Add('__AUTHOR_NAME__', 'Dejan Boras');
 Common::$markers->Add('__SITE_LINK__', 'https://dbx7.net');
 Common::$markers->Add('__FEED_TITLE__', 'dbx7 >> feed');
 Common::$markers->Add('__FEED_UUID__', '896851ae-228d-4f62-b6fa-09817c01ed07');
+Common::$markers->Add('<small-header/>', '<span class="small-header">&nbsp;</span>');
