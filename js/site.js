@@ -2,6 +2,7 @@ var quotes = {
     last: -1,
     list: [
         'New posts every <b>undefined</b>',
+        'New posts once a year',
         'Live long and prosper',
         'May the force be with you',
         'In defeat we learn',
@@ -14,7 +15,6 @@ var quotes = {
         'No, I am your father.',
         'Turning players into payers',
         'We don\'t use cookies, we eat them',
-        'Fuck you, give us money (Realistic corporate slogan)',
         'Take me to your leader',
         'This is the way',
         'People think it don\'t be like it is, but it do'
