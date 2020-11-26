@@ -133,6 +133,14 @@ hr {
     padding-left: 6px;
 }
 
+code {
+    color: #d2c58f;
+}
+
+.code-block {
+    color: #d2c58f;
+}
+
 /* external links */
 
 a[href^="http://"]:not([href*="dbx7.net"]):after,
