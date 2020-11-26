@@ -107,6 +107,14 @@ hr {
     padding: 0;
 }
 
+/* various types of notes */
+
+.edit {
+    color: #fa6;
+    border-left: solid 4px #fa6;
+    padding-left: 6px;
+}
+
 /* external links */
 
 a[href^="http://"]:not([href*="dbx7.net"]):after,
