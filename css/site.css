@@ -134,11 +134,16 @@ hr {
 }
 
 code {
-    color: #d2c58f;
+    color: #cefa9c;
+    font-size: 1rem;
 }
 
 .code-block {
     color: #d2c58f;
+    background-color: #222;
+    padding: 10px;
+    border: solid 2px #000;
+    border-radius: 8px;
 }
 
 /* external links */
