@@ -1,6 +1,6 @@
 <!--
     @Title: Android engine port shenanigans
-    @Date: 2020-26-11
+    @Date: 2020-11-26
     @Summary: Shenanigans developing an engine port for android
     @Marker: __FEED_UUID__ 5f0b23b5-7349-4cf1-a155-62b3ec80bf56
 -->
@@ -19,7 +19,7 @@
 <p>
     Got this error message when trying to do a <code>eglSwapBuffers</code>:<br/>
 </p>
-<div class=".code-block">
+<div class="code-block">
     <code>queueBuffer: error queuing buffer to SurfaceTexture, -19</code>
 </div>
 
@@ -37,7 +37,7 @@
     When you swap back to your app, for some reason the buffer geometry is different than it was, and you have to set it
     to match the egl config by getting the format.
 </p>
-<div class=".code-block">
+<div class="code-block">
     <code>
     eglGetConfigAttrib(egl_display, egl_config, EGL_NATIVE_VISUAL_ID, @format);
     ANativeWindow_setBuffersGeometry(app^.window, 0, 0, format);
